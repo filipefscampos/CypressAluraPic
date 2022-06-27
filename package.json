@@ -1,0 +1,27 @@
+{
+  "name": "cursocypress",
+  "version": "1.0.0",
+  "description": "Curso de Cypress do Alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipefscampos/CypressAluraPic.git"
+  },
+  "keywords": [
+    "Curso",
+    "Alura",
+    "Cypress"
+  ],
+  "author": "Filipe Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipefscampos/CypressAluraPic/issues"
+  },
+  "homepage": "https://github.com/filipefscampos/CypressAluraPic#readme",
+  "devDependencies": {
+    "cypress": "^10.2.0"
+  }
+}
