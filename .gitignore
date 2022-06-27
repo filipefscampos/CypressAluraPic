@@ -1,0 +1,3 @@
+#Ignorando os vídeos e relatórios do teste para nao pesar o git
+cypress/videos
+cypress/report
