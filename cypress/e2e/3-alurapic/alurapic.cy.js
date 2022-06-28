@@ -29,4 +29,16 @@ describe('login e registro de usuario', () => {
         cy.contains('ap-vmessage','Mininum length is 8').should('be.visible');
     })
 
+    it.only('fazer login com sucesso', () => {
+        cy.login('filipefscampos','12345678')
+        cy.contains('a','(Logout)').should('be.visible');
+    })
+
+    it.only('fazer login com usuario invalido', () => {
+        cy.login('filipefscampos','23232')
+            cy.on('window:alert', (str) => {
+            expect(str).to.equals('Invalid user name or password')
+        })
+    })
+
 })
