@@ -1,3 +1,6 @@
 #Ignorando os vídeos e relatórios do teste para nao pesar o git
 cypress/videos
 cypress/report
+
+#ignorando o env da senha
+cypress.env.json
